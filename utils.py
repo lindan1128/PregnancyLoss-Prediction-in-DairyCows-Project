@@ -1,4 +1,4 @@
-__author__ = 'LIN Dan'
+__author__ = 'Dan LIN'
 
 from keras import backend as K
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
