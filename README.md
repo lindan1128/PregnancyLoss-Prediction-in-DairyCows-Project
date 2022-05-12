@@ -9,4 +9,4 @@ Install the required packages
 ## Usage
 Train and evaluate the attention-based lstm model using the time-series activity and the metadata
     
-    $ python main.py --path=data/data.csv --epoch=100
+    $ python main.py --path=Data/data.csv --epoch=100
