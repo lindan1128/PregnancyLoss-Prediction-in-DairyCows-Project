@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-__author__ = 'LIN Dan'
+__author__ = 'Dan LIN'
 
 import sys
 sys.path.append('..')
@@ -57,6 +57,7 @@ def main():
     y_train = convert_y(y_train)
     y_test = convert_y(y_test)
 
+    # modeling
     lstm = Att_LSTMClassifier(nb_epochs = epoch, verbose = True)
     lstm.fit(X_activity_train, met_train, y_train, X_activity_test, met_test, y_test)
 
