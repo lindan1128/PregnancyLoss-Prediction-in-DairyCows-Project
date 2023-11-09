@@ -1,4 +1,4 @@
-# PregnancyLoss-Prediction-Project
+# PregnancyLoss-Prediction-in-DairyCow-Project
 The code of paper: Transformer neural network to predict and interpret pregnancy loss from activity data in Holstein dairy cows
 
 ## Installation
